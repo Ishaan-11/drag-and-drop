@@ -1,0 +1,26 @@
+body {
+  background: darksalmon;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  /* justify-content: center; */
+}
+.fill {
+  background-image: url("https://source.unsplash.com/random/150x150");
+  position: relative;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+.empty {
+  height: 160px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
